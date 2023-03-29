@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-image: url("images/background.png");
+  background-size: cover;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 14px;
+  color: #000;
+  text-transform: uppercase;
+  margin-left: 38px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin: 0 30px;
+}
+
+nav li a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+.pop-it {
+    background-image: url("images/background.png");
+    background-size: 1440px 900px;
+    padding: 0;
+    height: 900px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .pop-it-content {
+    text-align: left;
+    margin-left: 38px;
+    margin-top: 200px;
+  }
+
+.pop-it h2 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.pop-it p {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.pop-it-button
+{
+    background-color: #cbf3f0;
+    height: 40px;
+    width: 150px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.pop-it-button:active
+{
+    background-color:#47908a ;
+}
+
+.pop-it-description {
+  background-color: #fff;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pop-it-description h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.pop-it-description p {
+  font-size: 14px;
+  text-align: center;
+  max-width: 80%;
+  margin: 0;
+}
+
+.choose-pop-it {
+  background-color: #cbf3f0;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-pop-it h4 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.pop-it-images {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.pop-it-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pop-it-image img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.pop-it-image p {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0;
+  }
+  
+  button {
+  background-color: #ffc26a;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 9px 30px;
+  border: none;
+  cursor: pointer;
+  }
+
+  button:active{
+    background-color:#df8300 ;
+  }
+  
+  
+  .how-pop-it-works {
+    display: flex;
+    align-items: center;
+    background-image: url("images/bg-grid.png");
+    background-size: 1440px 502px;
+    background-repeat: no-repeat;
+    padding: 50px;
+    height: 502px;
+  }
+  .how-pop-it-works-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 50%;
+  }
+  
+  .how-pop-it-works h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .how-pop-it-works p {
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .how-pop-it-works-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50%;
+    margin-left: 300px;
+  }
+  .how-pop-it-works-image img {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333333;
+    padding: 20px;
+  }
+  
+  footer p {
+    font-size: 12px;
+    color: #ffffff;
+    margin: 0;
+  }
+
+  .p1{
+    font-size: 16px;
+  }
